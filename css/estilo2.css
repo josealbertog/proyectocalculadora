@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../image/fondo.jpg");
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fondo{
+  position: relative;
+  width: 100%;
+  height: 790px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+#calculadoraFondo{
+  /*
+  background-image: url("../image/Calculadora.png");*/
+  background-size: contain;
+  width: 432px;
+  height: 78%;
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.pantalla{
+  width: 344px;
+  height: 102px;
+  /*
+  background-image: url("../image/fondoCalc.png");*/
+  background-repeat: repeat;
+  text-align: right;
+  margin-top: 39px;
+}
+/*
+.teclado{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 16px;
+  width: 354px;
+  height: 373px;
+  justify-content: space-between;
+}
+
+.teclado img{
+  width: 22%;
+  height: 62.91px;
+}
+
+@font-face {
+  font-family: digital;
+  src: url("../fonts/digital.ttf");
+}
+#display{
+  font-family: digital;
+  font-size: 5em;
+}
+
+.row{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.col1{
+  width: 75%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.col2{
+  display: flex;
+  width: 25%;
+  align-items: flex-start;
+}
+
+#mas{
+  width: 90%;
+  height: 100%;
+  margin-left: 10px;
+
+}
+
+.teclado .row .col1 img{
+  width: 29%;
+  height: 62.91px;
+}
